@@ -1,0 +1,25 @@
+@keyframes mainA {
+    0% {
+        background-position-x: 0,2px;
+    }
+    
+    100% {
+        background-position-x: 17px,19px;
+    }
+}
+@keyframes footerTop {
+    0% {
+        background-position-x: 0,0;
+    }
+    100% {
+        background-position-x: 24px,-24px;
+    }
+}
+@keyframes footerMid {
+    0% {
+        background-position: 0 0,0 100%,0 0,100% 0;
+    }
+    100% {
+        background-position: 30px 0,-30px 100%,0 -30px,100% 30px;
+    }
+}
